@@ -18,6 +18,29 @@
     </nav>
     <p class= "bg-info"> This web application allows a user to post their life-changing quotes for others to see when they visit it.</p>
 </div>
-<app-quotes [quotes]='quotes'>
+<section id="quotes">
+  <div class="text-center text-success my-2">
+    <h1>The Quotes</h1>
+  </div>
+  <app-quotes [quotes]='quotes'>
 
-</app-quotes>
+  </app-quotes>
+
+</section>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Post Quote</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <app-quote-form (newQuoteEvent)="newQuote($event)"></app-quote-form>
+
+      </div>
+
+    </div>
+  </div>
+</div>
