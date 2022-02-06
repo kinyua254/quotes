@@ -1,0 +1,5 @@
+
+  
+<div class="row container mx-auto ">
+    <app-quote class="col-md-4 bg-warning"  *ngFor="let quote of quotes"[quote]='quote' (deleteEvent)="deleteQuote($event)"></app-quote>
+  </div>

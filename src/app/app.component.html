@@ -1,0 +1,23 @@
+<div class="container bg-warning">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">QUOTE APP</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#quotes">Quotes</a>
+            </li>
+   
+  
+          </ul>
+  
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Create Quote</button>
+  
+        </div>
+      </div>
+    </nav>
+    <p class= "bg-info"> This web application allows a user to post their life-changing quotes for others to see when they visit it</p>
+</div>
+<app-quotes [quotes]='quotes'>
+
+</app-quotes>
