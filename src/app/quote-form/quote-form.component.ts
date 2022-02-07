@@ -27,7 +27,7 @@ export class QuoteFormComponent implements OnInit {
 
       this.newQuoteEvent.emit(newQuote)
     }else {
-      alert("Please Provide all The Required Information")
+      alert("Fill all the required fields")
     }
 
 

@@ -1,4 +1,4 @@
-import { ElapsedTimePipe } from './elapsed-time.pipe';
+import { ElapsedTimePipe } from './timePassed';
 
 describe('ElapsedTimePipe', () => {
   it('create an instance', () => {
