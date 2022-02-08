@@ -7,6 +7,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { ElapsedTimePipe } from './timePassed';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,10 +16,12 @@ import { ElapsedTimePipe } from './timePassed';
     QuoteComponent,
     QuotesComponent,
     ElapsedTimePipe,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
