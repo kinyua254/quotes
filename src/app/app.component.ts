@@ -29,26 +29,6 @@ export class AppComponent {
       new Date('2022,02,06')
 
     ),
-    new Quote(
-      Quote.generateId(),
-      "LordKinyua",
-      "Success isn`t the key to happiness but happiness is the key to success",
-      "THE DON",
-      0,
-      0,
-      new Date('2022,02,06')
-
-    ),
-    
-    new Quote(
-      Quote.generateId(),
-      "LordKinyua",
-      "Some people are alive but aren`t living",
-      "THE DON",
-      0,
-      0,
-      new Date('2022,02,03')
-      ),
   
 
 
