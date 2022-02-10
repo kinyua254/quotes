@@ -13,6 +13,7 @@ export class ElapsedTimePipe implements PipeTransform {
 
     let timeDiff = Math.abs(value - actualDate)/1000;
     let noOfDays = Math.floor(timeDiff/86400)
+  
 
 
 if(noOfDays > 0){
